@@ -9,12 +9,33 @@ Casas decimais
 OBS: O separados de casas decimais na programação é o ponto e não a vírgula
 
 """
-#Errado
+#Errado do ponto de vista do FLoat, mas gera uma tupla
 valor = 1, 44
 print(valor)
 print(type(valor))
 
-#Certo
+#Certo do ponto de vista do FLoat
 valor = 1.44
 print(valor)
 print(type(valor))
+
+#É possível fazer dupla atribuição
+valor1, valor2 = 1, 44
+print(valor1)
+print(type(valor1))
+print(valor2)
+print(type(valor2))
+
+#Podemos converter um FLoat para um Int
+"""
+Obs.: Ao converter valores float para inteiros,  nós perdemos a precisão
+"""
+res = int(valor)
+print(res)
+print(type(res))
+
+#Podemos trabalhas com números complexos
+variavel = 5j
+print(variavel)
+
+
