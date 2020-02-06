@@ -57,3 +57,5 @@ K = float(input("Digite a velocidae em km/h:"))
 M = k/3.6
 
 print("A velocidade em m/s é: %s" % M)
+
+
