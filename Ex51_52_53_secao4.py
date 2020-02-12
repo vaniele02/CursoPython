@@ -43,7 +43,7 @@ c = float(input("Digite o comprimento do terreno "))
 L = float(input("Digite a largura  do terreno "))
 valor = float(input("Digite o valor da tela: "))
 
-m = c * L #metros quadrados do terreno 
+m = c * L #metros quadrados do terreno
 p = m * valor
 print("O valor total para fechar o terreno de tela é: %s" % p)
 
